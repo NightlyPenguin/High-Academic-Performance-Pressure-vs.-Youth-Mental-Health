@@ -1,0 +1,9 @@
+yrbss-youth-mental-health/
+├── data/
+│   ├── raw/                 <-- Put raw YRBSS files here (.gitignored)
+│   └── processed/           <-- Output cleaned CSVs here (.gitignored)
+├── scripts/
+│   └── clean_yrbss_data.py  <-- The Python script we generated
+├── .gitignore               <-- Tells Git which large data files to ignore
+├── requirements.txt         <-- Python packages needed to run the code
+└── README.md                <-- Project overview and showcase for recruiters
